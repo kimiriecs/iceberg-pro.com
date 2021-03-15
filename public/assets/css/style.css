@@ -1,0 +1,46 @@
+@charset "UTF-8";
+.header-flexBackgroundImage {
+  position: relative;
+  height: 0;
+  background-image: url("../img/girl_workout_Large_1920×1280.jpg");
+  padding-top: 66.6666666667%;
+  background-size: cover;
+}
+.header-flexBackgroundImage > .flexBackgroundImage-contentWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.fitures-item-icon-wrapper {
+  width: 150px;
+  margin: 0 auto;
+}
+.fitures-item-icon {
+  width: 100%;
+}
+
+.team-member {
+  width: 100%;
+}
+
+body {
+  background-color: white;
+  font-family: "Comfortaa", cursive;
+}
+
+h1, h2, h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 350;
+}
+
+h4, h5, h6 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 350;
+}
+
+.headerText {
+  color: bisque;
+}

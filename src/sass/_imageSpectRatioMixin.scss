@@ -1,0 +1,16 @@
+@mixin imageSpectRatio( $imgUrl, $imageHight, $imageWidth ) {
+    &-flexBackgroundImage {
+        position: relative;
+        height: 0;
+        background-image: $imgUrl;
+        padding-top: ($imageHight / $imageWidth) * 100%;;
+        background-size: cover;
+        > .flexBackgroundImage-contentWrapper {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}

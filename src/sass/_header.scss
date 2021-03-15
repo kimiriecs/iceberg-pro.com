@@ -1,0 +1,20 @@
+$headerImgUrl: url('../img/girl_workout_Large_1920×1280.jpg');
+$headerImageHight: 1280px;
+$headerImageWidth: 1920px;
+.header {
+    @include imageSpectRatio( $headerImgUrl, $headerImageHight, $headerImageWidth )
+}
+// .bgFlexImageWrapper {
+//     position: relative;
+//     height: 0;
+//     background-image: $headerImgUrl;
+//     padding-top: ($headerImageHight / $headerImageWidth) * 100%;;
+//     background-size: cover;
+// }
+// .bgFlexImageContent {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     height: 100%;
+//     width: 100%;
+// }
